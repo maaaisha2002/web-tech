@@ -1,0 +1,78 @@
+:root  {
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    width: 650px;
+    background-color: #efefef;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: auto;
+}
+.required-note {
+    color: red;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.steps {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.steps .active {
+    color: red;
+}
+h3 {
+    background-color: #d9534f;
+    color: white;
+    padding: 5px 10px;
+    font-size: 1em;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    padding: 5px;
+    vertical-align: middle;
+    font-size: 0.9em;
+}
+.label-col {
+    text-align: right;
+    width: 35%;
+    font-weight: bold;
+}
+.input-col {
+    text-align: left;
+    width: 65%;
+}
+input[type="text"], select, textarea {
+    width: 95%;
+    padding: 3px;
+    border: 1px solid #999;
+}
+textarea {
+    height: 60px;
+}
+.inline-group input {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.inline-group input:first-child {
+    margin-left: 0;
+}
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer {
+    text-align: center;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
